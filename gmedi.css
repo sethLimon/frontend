@@ -1,0 +1,147 @@
+body{
+    background-image: url(imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+
+/*BARRAS DE NAVEGACIÓN*/
+#nav1{
+    background-color:rgb(65, 185, 255);
+    }
+#nav2{
+    background-color: rgb(51, 211, 59);
+    }
+li a{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.glyphicon.glyphicon-user{
+    margin-right: 20px;
+    
+}
+/*CONTAINER LOGO Y BARRA DE BÚSQUEDA*/
+
+#busqueda{
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+#logo{
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 230px;
+    padding-left: 100px;
+}
+
+div.container-busqueda{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group{
+    width: 500px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.btn.btn-default{
+    height: 45px;
+    width: 45px;
+    color: orange;
+    border-color: orange;
+    border-width: medium;
+    
+}
+.form-control{
+    height: 45px;
+    color: orange;
+    border-color: orange;
+    border-style:double;
+    border-width: thick;
+}
+
+/*CUERPO DE INFORMACIÓN*/
+
+#cuerpo{
+    height: 700px;
+}
+
+
+#textouno{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align:left;
+    
+}
+
+#textodos{
+    margin-top: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align:left;
+    background-color: rgba(240, 255, 255, 0.514);
+    border-radius: 10px;
+    
+}
+.col-md-5{
+    margin-left: 100px;
+}
+#imageuno{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 500px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+#imagedos{
+    margin-top: 15px;
+    margin-left: 180px;
+    width: 500px;
+    height: 220px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*DIV FOOTER*/
+#footer{
+    background-color: orange;
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    line-height: 10px;
+}
+#footer h5{
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 0%;
+    margin-bottom: 2px;
+}
+
+#f1{
+    text-align: right;
+}
+
+#f2{
+    text-align: left;
+}
+a{
+    color: white;
+}

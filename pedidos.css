@@ -1,0 +1,78 @@
+body{
+    background-image: url(imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+
+/*BARRAS DE NAVEGACIÓN*/
+#nav1{
+    background-color:rgb(65, 185, 255);
+    }
+#nav2{
+    background-color: rgb(51, 211, 59);
+    }
+li a{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.glyphicon.glyphicon-user{
+    margin-right: 20px;
+    
+}
+
+#myCarousel {
+    margin-bottom: 1%;
+}
+
+
+
+/*FOOTER*/
+#footer{
+    background-color: orange;
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    line-height: 10px;
+}
+#footer h5{
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 0%;
+    margin-bottom: 2px;
+}
+
+#f1{
+    text-align: right;
+}
+
+#f2{
+    text-align: left;
+}
+a{
+    color: white;
+}
+
+#botones {
+    margin-top: 37px;
+    margin-left: 30%;
+    font-size: 1.7rem;
+}
+
+#botones button {
+    background-color:rgb(51, 211, 59);
+    color: white;
+    font-weight: bold;
+    border-color: rgb(51, 211, 59);
+}
+
+a{
+    color: white;
+}

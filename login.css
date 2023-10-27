@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(180deg, white, azure, #ccfcfc, #7ccfff, #5dc3fd, #24acfa );
+    background-size: 500%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav1{
+    background-color:#41b9ff;
+    }
+
+
+
+    li a{
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+.glyphicon.glyphicon-user{
+    margin-right: 20px;
+    
+}
+    #logo{
+        width: 400px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 230px;
+        padding-left: 100px;
+    }
+
+.informacion.items {
+    background-image: url(imgs/imglogin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#botones {
+    margin-top: 37px;
+    margin-left: 30px;
+    font-size: 1.7rem;
+}
+
+#botones button {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-color: orange;
+}
+
+a{
+    color: white;
+}
+
+#formulariouno{
+    margin-top: 80px;
+}
+#formulariouno button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-color: orange;
+}
+
+#titulo{
+    text-align: left;
+    margin-left: 180px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+
+/*DIV FOOTER*/
+#footer{
+    background-color: rgb(51, 211, 59);
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#footer h5{
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 0%;
+    margin-bottom: 2px;
+}
+
+#f1{
+    text-align: right;
+}
+
+#f2{
+    text-align: left;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gaor Suministros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='gmedi.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+  <nav id="nav1" class="navbar navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="transparencia.html">Transparencia</a></li>
+        <li><a href="pqrs.html">PQRS</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <li><a href="login.html"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container-busqueda">
+      <img  id="logo" src="imgs/logo01.png">
+      <div>
+        <div id="busqueda">
+          <img src="imgs/sobrebusqueda.png"> 
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+        </div>
+      </div>
+      
+    </div>
+
+    <nav id="nav2" class="navbar navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogo virtual<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="catalogo/catepp.html">EPP</a></li>
+              <li><a href="catalogo/catindus.html">Industrial</a></li>
+              <li><a href="catalogo/catmedi.html">Medicinal</a></li>
+            </ul>
+          </li>
+          <li><a href="epp.html">EPP</a></li>
+          <li><a href="gindus.html">Gases Industriales</a></li>
+          <li><a href="gmedi.html">Gases Medicinales</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="pedidos.html"><span class="glyphicon glyphicon-shopping-cart"></span><i class='fas fa-cart-plus'></i> Haz tu pedido</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid" id="cuerpo" >
+      <div class="row">
+        
+        <div class="col-md-5" >
+          <div class="información-item" id="textouno">
+            <h1>Gases medicinales</h1>
+            <br>
+            <p>Los gases medicinales son ampliamente utilizados en los hospitales, ya sea en urgencias, en el quirófano, en la U.C.I., en planta o en las ambulancias. 
+              Hay una variedad de gases medicinales necesarios en la asistencia sanitaria: aire medicinal, dióxido de carbono (CO2), helio (He), óxido nitroso (N2O), 
+              nitrógeno (N2), monóxido de nitrógeno (NO), oxígeno (O2), xenón.</p> 
+            <p>Para asegurar un suministro y distribución de los gases sin dificultad, se instalan instrumentos de medición en los tanques o cilindros de almacenamiento de gas,
+                en los colectores de válvulas, en los controladores de presión y en los armarios de control de cierre, como reguladores secundarios en los sistemas de distribución 
+                de gas y en las estaciones de los usuarios. Para el control de vacío, se utilizan medidores de presión.</p>
+              <img src="imgs/gasmedi01.jpg"  id="imageuno">
+              <p>El concentrador de oxígeno es un recurso fundamental para las personas que sufren de enfermedades respiratorias crónicas, como la enfermedad pulmonar obstructiva
+                  crónica (EPOC), fibrosis pulmonar, asma severa y otras afecciones que afectan la capacidad pulmonar. Este dispositivo les proporciona un suministro constante de 
+                  oxígeno, mejorando su capacidad para respirar, reduciendo la fatiga y permitiéndoles llevar una vida más activa y satisfactoria. </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="información-item" id="textodos">
+                <h3>¿Cómo usar el concentrador de oxigeno?</h3>
+                <ul>
+                  <li> Para usar el producto la parte trasera debe estar a 30 cm de la pared como mínimo. Además, debes quitar el tablero de espuma y la zona inferior debe mantenerse 
+                       libre para asegurar la circulación de aire.</li>
+                  <li>Retira la botella de humidificación y coloca agua fría o agua destilada hasta el nivel indicado en el recipiente. Luego instala la botella al concentrador de 
+                       oxígeno con ayuda del tubo de conexión.</li>
+                  <li>Conecta el concentrador al tomacorriente y presiona el interruptor de encendido en el panel para ingresar al modo de espera. Luego presiona el botón "oxígeno" 
+                      para que comience una ligera fluctuación.</li>
+                </ul>
+                <img src="imgs/gasmedi02.jpg" id="imagedos">
+                <ul>
+                  <li>Ajusta el caudalímetro de acuerdo con la salida de oxígeno requerida. Recuerda que se gira en sentido antihorario para aumentar y en sentido horario para disminuir el caudal.</li>
+                  <li>Observa el dispositivo de monitoreo que emite concentración de oxígeno. Cuando la concentración de oxígeno no cumple con los requisitos estándar, se enciende una luz amarilla 
+                    de advertencia de hipoxia en la pantalla.</li>
+                  <li>Inserte el tubo de oxígeno nasal en la botella de humidificación. Luego coloca el tubo de succión de oxígeno en la oreja del inhalador y conecta el tapón nasal en el tubo 
+                    de inhalación de oxígeno.</li>
+                  <li>Si suena una alarma durante el funcionamiento del concentrador de oxígeno, comprueba si la conexión está suelta o si se ha interrumpido la fuente de alimentación externa.</li>
+
+                </ul>
+            </div>         
+          </div>
+  
+        
+      </div>
+    </div>
+    
+    
+
+</body>
+<div class="container-fluid" id="footer">
+  <h5>Contáctanos</h5>
+  <hr width="550px">
+  <div class="row">
+    <div class="col-md-6" id="f1">
+      <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:gaorsuministros.23@outlook.com"> gaorsuministros.23@outlook.com</a></p>
+      <p><span class="glyphicon glyphicon-road"></span> Calle 30 A N° 4A 27</p>
+      <p><span class="glyphicon glyphicon-phone"></span><a href=""> 3184027159</a></p>
+      </div>
+      <div class="col-md-6" id="f2">
+        <p><span class="glyphicon glyphicon-thumbs-up"></span><a href="https://m.facebook.com/people/GAOR-SUMINISTROS/100065581205778/"> Facebook</a> </p>
+        <p><span class="glyphicon glyphicon-briefcase"></span><a href="https://co.linkedin.com/in/gaor-suministros-esmeralda-garcia-b1949580"> Linked In</a></p><br>
+        <p><a href="https://itoeste.com/w/HBT" style="text-decoration: none; font-family: Arial; background-color: blue; color: #ffffff; font-size: 1.3rem; font-weight: 400; border: 1px solid transparent; border-radius: .25rem; padding: .375rem .75rem; margin: 5px;">Contactar por WhatsApp</a></p>
+      </div>
+  </div>
+  <footer>
+    
+    
+  </footer>
+</div>
+</html>
